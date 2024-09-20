@@ -91,6 +91,25 @@
         </p>
       </td>
     </tr>
+
+    <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='internerf_image'>
+					  <img src='images/food_pantry.png' width=100%>
+					</div>
+<!--          <img src='images/FL.png' width=100%>-->
+<!--        </div>-->
+        <script type="text/javascript">
+          function nuvo_start() {
+            document.getElementById('nuvo_image').style.opacity = "1";
+          }
+
+          function nuvo_stop() {
+            document.getElementById('nuvo_image').style.opacity = "0";
+          }
+          nuvo_stop()
+        </script>
       </td>
       <td style="padding:20px;width:90%;vertical-align:middle">
           <strong>Fair Allocation in Non-Profit Operations: Optimal Routing Policy (Working Paper)</strong>
@@ -112,5 +131,6 @@
         Modeling a simultaneous
         </p>
       </td>
+    </tr>
   </body>
 </html>
